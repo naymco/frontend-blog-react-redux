@@ -1,0 +1,139 @@
+/*  Google Fonts Import */
+@import url("https://fonts.googleapis.com/css?family=Nova+Mono|Ubuntu+Mono:400,400i&display=swap&subset=greek");
+
+:root {
+  --light-color: #202020;
+  --links-color: #ececec;
+  --link-hover-color: #0e0e0e;
+  --navbar-color: #abeeff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu Mono";
+  background: var(--light-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Nova Mono";
+  font-weight: 700;
+}
+
+h1 span,
+h2 span {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #949494;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: white;
+}
+
+.btn-success {
+  background: var(--links-color);
+  color: var(--light-color);
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0px 0px 2px 0px var(--link-hover-color);
+  transition: 0.5s;
+}
+
+.btn-success:hover {
+  box-shadow: 0px 0px 3px 1px var(--light-color);
+  background: var(--navbar-color);
+  color: var(--link-hover-color);
+}
+
+.container-home {
+  background: var(--link-hover-color);
+}
+
+.container-saludo {
+  margin: 2% 5%;
+  background-color: var(--light-color);
+  box-shadow: 0px 0px 5px 2px #000000;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #414141;
+  padding: 50px 20px;
+}
+
+.block-estudios {
+  margin: 3% 5%;
+  background-color: var(--light-color);
+  box-shadow: 0px 0px 5px 2px #000000;
+  border-radius: 10px;
+  border: 1px solid #414141;
+  color: white;
+  padding: 3% 5%;
+}
+
+.container-saludo p,
+.container-home h2,
+.block-estudios h3,
+.block-estudios p {
+  padding: 20px;
+}
+.container-home h2 {
+  font-size: 50px;
+  text-align: right;
+}
+
+.block-estudios h3 {
+  color: white;
+  font-size: 50px;
+  text-align: right;
+  border-bottom: 2px solid #414141;
+}
+
+.foto-curriculum {
+  border-radius: 50%;
+  width: 20%;
+  /* border: 5px double var(--link-hover-color); */
+  box-shadow: 1px 1px 4px 2px var(--link-hover-color);
+
+  margin: 20px;
+  float: right;
+}
+
+.logo-html {
+  width: 15%;
+  margin: 0 20px;
+  float: right;
+  /* box-shadow: 1px 1px 4px 2px var(--link-hover-color); */
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.block-hability {
+  border-bottom: 1px solid #414141;
+  padding: 20px;
+}
+
+span {
+  font-weight: 700;
+  padding: 20px;
+}
+
+.border-separate {
+  border-bottom: 1px solid #c9c9c9;
+  margin: 20px 0px;
+  width: 80%;
+}

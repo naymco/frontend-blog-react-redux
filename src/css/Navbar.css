@@ -1,0 +1,35 @@
+.navbar {
+  background: #00aeff;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 3px solid #ececec;
+  z-index: 99;
+}
+
+.container-links {
+  font-size: 18px;
+  display: flex;
+}
+
+.link-navbar {
+  padding: 5px 20px;
+  color: white !important;
+}
+
+.link-navbar::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #ffffff;
+  transition: 0.5s;
+}
+
+.link-navbar:hover::before {
+  width: 100%;
+}

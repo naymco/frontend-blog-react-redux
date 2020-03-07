@@ -1,0 +1,47 @@
+[
+  {
+    "title": "HTML/CSS/Javascrip:",
+    "image": "https://jml.neocities.org/html5-css3-js.png",
+    "description": "Como buen desarrollador, comencé a aprender las bases para luego ir subiendo el nivel de dificultad y comenzar a crear aplicaciones mucho más complejas que una simple web estática. Gracias a esto, participé en un proyecto del bootcamp donde estudíe, en el que conectabamos una api de SoundCloud, con javascript vanilla, donde creé un buscador de música en tiempo real, para poder buscar y reproducir cualquier canción. Aquí estaba tan sólo en el inicio del bootcamp, así que PHP lo aprendí mucho después de ver todas las librerias y frameworks que me ofrecia Javascript",
+    "link": {
+      "front": "https://github.com/naymco/ApiReproductorSoundCloud",
+      "back": ""
+    }
+  },
+  {
+    "title": "Nodejs, express y mongoDB",
+    "image": "https://miro.medium.com/max/600/0*11eDqY4zA04y2_n6.jpg",
+    "description": "Tengo varios proyectos creados con estas tecnologías. Junto con Express, el descubrimiento de Nodejs ha sido uno de los lenguajes que más me han gustado. Un backend muy estable y fácil de implementar. He creado tanto aplicaciones completas en node, como usarlo como API REST y consumirlo con un frontend como Angular o React. Tengo una aplicación de notas, con todas las funcionalidades necesarias para crear tus notas personalizadas. Para el front utilicé un motor de plantillas llamado Handlebars, y también utilicé bootstrap 4 para el diseño.",
+    "link": {
+      "front": "https://github.com/naymco/notes-app",
+      "back": ""
+    }
+  },
+  {
+    "title": "Angular",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png",
+    "description": "Con la finalidad de aprender javascript en todas sus ramas, creé un proyecto en Angular. La aplicación es un videoclub como antiguamente lo era Netflix. Con una estética diferente, pero con la opción de búsqueda de películas, pedido, y fechas de entrega como de recogida de dicho artículo. Este proyecto también tiene un backend en Nodejs y utilicé mongoDB como base de datos, debido a su facilidad y rapidez a la hora de hacer consultas. Puede mover una gran cantidad de datos muy rápido y de manera fácil sin consumir muchos recursos del servidor. Además con Nodejs tenemos las promesas y callbacks de forma asíncrona, lo cual permite mover mucha información sin parar la aplicación en ningún momento.",
+    "link": {
+      "front": "https://github.com/naymco/FrontEnd-VideoClub",
+      "back": "https://github.com/naymco/Backend-videoClub"
+    }
+  },
+  {
+    "title": "React y Redux",
+    "image": "https://sujanbyanjankar.com.np/wp-content/uploads/2019/02/react-redux.png",
+    "description": "La promoción de trabajo en grupo era algo importante en la que junto a uno de mis compañeros del bootcamp, realizamos un e-commerce similar  Decathlon, donde implementamos React y Redux, este último de forma algo básica, ya que aún no comprendía muy bien el flujo de como se la Aprendí muchas cosas de React y la verdad es que es uno de mis frameworks favoritos, de hecho esta web y el sistema que tengo implementado  está todo creado en React y Redux, aquí ya de forma más profunda y comprendiendo su funcionamiento.",
+    "link": {
+      "front": "https://github.com/naymco/Frontend-super-sport",
+      "back": "https://github.com/rubeneitor/BackendSQLSuperSport"
+    }
+  },
+  {
+    "title": "Laravel",
+    "image": "https://www.programaenlinea.net/wp-content/uploads/2015/06/laravel-1.png",
+    "description": "La experiencia del último mes en el bootcamp, fue completamente dirigida a php, no sólo creamos un framework desde 0, para comprender el funcionamiento de un framework y las dependencias que utiliza como por ejemplo puede ser Doctrine, también creamos un proyecto en Laravel, con el que entre mi compañero y yo realizamos. Yo realicé las migraciones a la base de datos en RAW y luego decidí también realizarlo con el ORM de Eloquent con el que sentí que tenía un buen feeling. Para el frontend usamos React junto con Redux y el proyecto realizado fue una red social. En nuestro caso lo hicimos de superhéroes",
+    "link": {
+      "front": "https://github.com/azaelsanchez/frontend-linkedin-clon/tree/develop",
+      "back": "https://github.com/naymco/backend-linkedin-clon/tree/develop"
+    }
+  }
+]
